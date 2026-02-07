@@ -281,5 +281,6 @@ editorContent.addEventListener('paste', (e) => {
   }
 });
 
-// Initial load
+// Initial load — ensure blog list is shown
+showView(blogList);
 renderPostList();
